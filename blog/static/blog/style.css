@@ -1,0 +1,21 @@
+form {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+#city-input{
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#form-button{
+    background-color: #6676c6;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 10px;
+}

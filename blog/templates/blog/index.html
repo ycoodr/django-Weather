@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+   <form action="{% url 'search' %}" method="get">
+    <input id="city-input" type="text" name="city" placeholder="type a city" />
+    <input id="form-button" type="submit" value="Search" />
+   </form>
+</body>
+</html>
