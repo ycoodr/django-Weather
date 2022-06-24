@@ -13,5 +13,13 @@
     <input id="city-input" type="text" name="city" placeholder="type a city" />
     <input id="form-button" type="submit" value="Search" />
    </form>
+
+   <div class="weather-card">
+    <img src="{{ image_icon }}" />
+    <h3>{{ jsonResponse.name }}</h3>
+    <p>{{ description }}</p>
+    <p>Temp: {{ jsonResponse.main.temp }}</p>
+    <p>Humidity: {{ jsonResponse.main.humidity}}</p>
+   </div>
 </body>
 </html>
